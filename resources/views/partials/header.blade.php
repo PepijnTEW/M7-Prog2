@@ -11,9 +11,12 @@
                             href="{{ url('/about') }}"
                             class=" bg-white inline-block mr-3 px-5 mpx-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal">
                                 About
-                    </a>
-                    
-
+                        </a>
+                        <a
+                            href="{{ url('/contact') }}"
+                            class=" bg-white inline-block mr-3 px-5 mpx-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal">
+                            Contact
+                        </a>
                     </div>
                     <div>
                         @auth
